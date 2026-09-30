@@ -1,0 +1,89 @@
+name: BanSystem
+version: 1.0.0
+main: com.wizm.bansystem.BanSystem
+api-version: 1.13
+author: 4Wizm
+description: BanSystem by 4Wizm
+softdepend: [BungeeCord, Velocity]
+
+commands:
+  ban:
+    description: Banna un utente
+    usage: /ban <utente> <motivo> [durata]
+    permission: bansystem.staff.use.ban
+    permission-message: ""
+  kick:
+    description: Kicka un utente
+    usage: /kick <utente> <motivo> [durata]
+    permission: bansystem.staff.use.kick
+    permission-message: ""
+  mute:
+    description: Muta un utente
+    usage: /mute <utente> <motivo> [durata]
+    permission: bansystem.staff.use.mute
+    permission-message: ""
+  blacklist:
+    description: Blacklist permanente
+    usage: /blacklist <utente> <motivo>
+    permission: bansystem.staff.use.blacklist
+    permission-message: ""
+  unban:
+    description: Sbanna
+    usage: /unban <utente>
+    permission: bansystem.staff.use.unban
+    permission-message: ""
+  unmute:
+    description: Smuta
+    usage: /unmute <utente>
+    permission: bansystem.staff.use.unmute
+    permission-message: ""
+  unkick:
+    description: Rimuove kick
+    usage: /unkick <utente>
+    permission: bansystem.staff.use.unkick
+    permission-message: ""
+  unblacklist:
+    description: Rimuove blacklist
+    usage: /unblacklist <utente>
+    permission: bansystem.staff.use.unblacklist
+    permission-message: ""
+  baninfo:
+    description: Info ban
+    usage: /baninfo <utente>
+    permission: bansystem.staff.use.baninfo
+    permission-message: ""
+  muteinfo:
+    description: Info mute
+    usage: /muteinfo <utente>
+    permission: bansystem.staff.use.muteinfo
+    permission-message: ""
+  kickinfo:
+    description: Info kick
+    usage: /kickinfo <utente>
+    permission: bansystem.staff.use.kickinfo
+    permission-message: ""
+  blacklistinfo:
+    description: Info blacklist
+    usage: /blacklistinfo <utente>
+    permission: bansystem.staff.use.blacklistinfo
+    permission-message: ""
+  dueip:
+    description: IP check ban
+    usage: /dueip <utente>
+    permission: bansystem.staff.use.dueip
+    permission-message: ""
+  muteip:
+    description: IP check mute
+    usage: /muteip <utente>
+    permission: bansystem.staff.use.muteip
+    permission-message: ""
+  kickip:
+    description: IP check kick
+    usage: /kickip <utente>
+    permission: bansystem.staff.use.kickip
+    permission-message: ""
+  bansystem:
+    description: Comando principale
+    usage: /bansystem reload
+    permission: bansystem.staff.use.reload
+    permission-message: ""

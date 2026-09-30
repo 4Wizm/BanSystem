@@ -1,0 +1,92 @@
+proxy:
+  enabled: false
+  type: BUNGEECORD
+
+broadcast:
+  ban:
+    - "&8[&cSTAFF&8] &f%staff% &7ha bannato &c%target%"
+    - "&7Motivo: &f%reason%"
+    - "&7Durata: &f%duration%"
+    - "&7Data: &f%date%"
+  kick:
+    - "&8[&cSTAFF&8] &f%staff% &7ha kickato &c%target%"
+    - "&7Motivo: &f%reason%"
+    - "&7Durata: &f%duration%"
+    - "&7Data: &f%date%"
+  mute:
+    - "&8[&cSTAFF&8] &f%staff% &7ha mutato &c%target%"
+    - "&7Motivo: &f%reason%"
+    - "&7Durata: &f%duration%"
+    - "&7Data: &f%date%"
+  blacklist:
+    - "&8[&cSTAFF&8] &f%staff% &7ha blacklistato &c%target%"
+    - "&7Motivo: &f%reason%"
+    - "&7Durata: &fPermanente"
+    - "&7Data: &f%date%"
+
+screen:
+  ban:
+    - "&c&lSei stato bannato!"
+    - ""
+    - "&7Motivo: &f%reason%"
+    - "&7Durata: &f%duration%"
+    - "&7Staff: &f%staff%"
+    - "&7Data: &f%date%"
+  kick:
+    - "&c&lSei stato kickato!"
+    - ""
+    - "&7Motivo: &f%reason%"
+    - "&7Durata: &f%duration%"
+    - "&7Staff: &f%staff%"
+    - "&7Data: &f%date%"
+  mute:
+    - "&c&lSei stato mutato!"
+    - ""
+    - "&7Motivo: &f%reason%"
+    - "&7Durata: &f%duration%"
+    - "&7Staff: &f%staff%"
+    - "&7Data: &f%date%"
+  blacklist:
+    - "&4&lSei in blacklist!"
+    - ""
+    - "&7Motivo: &f%reason%"
+    - "&7Durata: &fPermanente"
+    - "&7Staff: &f%staff%"
+    - "&7Data: &f%date%"
+
+mute-notify:
+  - "&cSei mutato! Non puoi scrivere in chat."
+  - "&7Motivo: &f%reason%"
+  - "&7Tempo rimanente: &f%duration%"
+
+messages:
+  prefix: "&8[&cBanSystem&8] &r"
+  no-permission: "&cNon hai il permesso."
+  player-not-found: "&cGiocatore non trovato."
+  user-not-exist: "&cUtente inesistente."
+  user-already-punished: "&cUtente gia' sanzionato."
+  user-not-punished: "&cUtente non sanzionato."
+  already-banned: "&cQuesto giocatore e' gia' bannato."
+  already-muted: "&cQuesto giocatore e' gia' mutato."
+  ban-broadcast-perm: "bansystem.staff.use.ban"
+  kick-broadcast-perm: "bansystem.staff.use.kick"
+  mute-broadcast-perm: "bansystem.staff.use.mute"
+  blacklist-broadcast-perm: "bansystem.staff.use.blacklist"
+
+permissions:
+  ban: "bansystem.staff.use.ban"
+  kick: "bansystem.staff.use.kick"
+  mute: "bansystem.staff.use.mute"
+  blacklist: "bansystem.staff.use.blacklist"
+  unban: "bansystem.staff.use.unban"
+  unmute: "bansystem.staff.use.unmute"
+  unkick: "bansystem.staff.use.unkick"
+  unblacklist: "bansystem.staff.use.unblacklist"
+  baninfo: "bansystem.staff.use.baninfo"
+  muteinfo: "bansystem.staff.use.muteinfo"
+  kickinfo: "bansystem.staff.use.kickinfo"
+  blacklistinfo: "bansystem.staff.use.blacklistinfo"
+  dueip: "bansystem.staff.use.dueip"
+  muteip: "bansystem.staff.use.muteip"
+  kickip: "bansystem.staff.use.kickip"
+  reload: "bansystem.staff.use.reload"
